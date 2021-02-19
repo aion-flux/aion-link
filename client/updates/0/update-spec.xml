@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<client-update>
+  <pre-update />
+  <post-update>
+    <file location="AIONLauncher.exe" action="delete-if-exists" />
+    <file location="ncpt.dat" action="delete-if-exists" />
+    <file location="Nini.dll" action="delete-if-exists" />
+    <file location="sc_renew.dat" action="delete-if-exists" />
+    <file location="sc_renew_local.dat" action="delete-if-exists" />
+  </post-update>
+</client-update>
