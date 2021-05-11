@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<client-update>
+	<pre-update />
+	<post-update>
+		<file location="bin32\dbghelp.dll" action="delete-if-exists" />
+		<file location="bin32\d3d8thk.dll" action="delete-if-exists" />
+		<file location="bin32\d3dx9_38.dll" action="delete-if-exists" />
+	</post-update>
+</client-update>
